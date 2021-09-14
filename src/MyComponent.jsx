@@ -24,7 +24,7 @@ export default class MyComponent extends Component {
           placeholder="معکوس متن"
           value={this.state.str.split("").reverse().join("")}
         />
-        <label className="outStyle">11طول رشته: {this.state.str.length}</label>
+        <label className="outStyle">طول رشته: {this.state.str.length}</label>
       </div>
     );
   }
